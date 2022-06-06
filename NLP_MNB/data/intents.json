@@ -1,0 +1,106 @@
+{"intents": [
+    {"tag": "sapa",
+     "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Ping", "P"],
+     "responses": ["Halo!", "Hai", "Halo, ada yang bisa saya bantu?", "Halo selamat datang", "Hai Juga"]
+    },
+
+    {"tag": "sapapagi",
+        "patterns": ["Selamat pagi", "Sugeng Enjing", "Sugeng Enjang", "selamat pagi", "met pagi", "pagi"],
+        "responses": ["Selamat pagi, bagaimana ada yg bisa dibantu?", "Selamat pagi juga, ada apa yah?", "Sugeng enjing, iya bagaimana ?"]
+    },
+
+    {"tag": "sapasiang",
+        "patterns": ["Selamat siang", "Sugeng Siang", "selamat siang", "met siang", "siang"],
+        "responses": ["Selamat siang, gimana yah?", "Selamat siang juga, ada yg bisa dibantu", "Sugeng siang, ada yg bisa dibantu?"]
+    },
+    
+    {"tag": "sapasore",
+        "patterns": ["Selamat sore", "Sugeng Sore", "selamat sore", "met sore", "sore"],
+        "responses": ["Selamat siang, gimana yah?", "Selamat siang juga, ada yg bisa dibantu", "Sugeng siang, ada yg bisa dibantu?"]
+    },
+
+    {"tag": "sapamalam",
+        "patterns": ["Selamat malam", "Sugeng ndalu", "selamat malem", "met malam", "malam", "met malem", "malem"],
+        "responses": ["Selamat malam, gimana yah?", "Selamat malam juga, ada yg bisa dibantu ?", "Sugeng ndalu, ada yg bisa dibantu?"]
+    },
+
+    {"tag": "salam",
+        "patterns": ["Assalamualaikum", "Asslm", "Aslm", "Assalamualaikum wr wb", "Salamualaikum", "Assalamualaikum bro", "Assalamualaikum pak", "Salam"],
+        "responses": ["Waalaikumsalam wr wb.. Ada yang bisa kami bantu?", "Waalaikumsalam.. iya, ada yang bisa dibantu?", "Waalaikumsalam, iya gimana yah?", "Waalaikumsalam, gimana ya?", "Waalaikumsalam, gimana gan?"]
+    },
+
+    {"tag": "perkenalandiri",
+        "patterns": ["nama kamu siapa?", "kamu itu apa sih?", "siapa sih kamu?", "perkenalkan diri dong", "namanya siapa", "siapa nama" , "namamu siapa?"],
+        "responses": ["Perkenalkan namaku SinokBot. Tugasku bantu Kak Ipul untuk kelola helpdesk sistem, salam kenal kak!", "Halo, aku SinokBot! aku bantu Kak ipul untuk kelola helpdesk sistem", "Kenalin, aku SinokBot! tugasku bantu Kak ipul untuk kelola helpdesk sistem kak"]
+    },
+
+    {"tag": "kemampuansinokbot",
+        "patterns": ["kamu bisa apa saja?", "apa yang bisa kamu lakukan?", "kamu bisa ngapain aja?", "kamu bisa bantu aku apa?", "apa kemampuan kamu?", "apa kemampuanmu?", "apa itu sinokbot assistance?"],
+        "responses": ["Kakak bisa tanya-tanya apa aja yang berkaitan dengan teknis penggunaan epresensi", "Aku bisa bantu jawab pertanyaan-pertanyaan seputar masalah epresensi kak"]
+    },
+
+    {"tag": "buatjadwalkerja",
+        "patterns": ["bagaimana cara buat jadwal kerja?", "saya belum membuat jadwal kerja?", "cara membuat jadwal bagaimana yah?", "bagaimana cara bikin jadwal kerja?", "cara bikin jadwal kerja?", "gimana ya cara bikin jadwal kerja?"],
+        "responses": ["bapak ibu dapat membuat jadwal kerja di aplikasi epresensi melalui menu Jadwal-Jadwal Kerja. sebaiknya baca tutorial dahulu di poin 1 di https://bkppd.tegalkota.go.id/wp-content/uploads/general/Module.pdf" ,"baca link ini dulu ya kak di poin no 1 https://bkppd.tegalkota.go.id/wp-content/uploads/general/Module.pdf ,Monggo. untuk membuat jadwal kerja kakak bisa masuk ke menu jadwal-jadwal kerja"]
+    },
+    {"tag": "caragantiperangkat",
+        "patterns": ["cara ganti perangkat HP baru untuk E-Presensi caranya bagaimana?","cara ganti perangkat baru untuk epresensi caranya bagaimana ya?","cara ganti perangkat android untuk sinok bagaimana ya?","kalau mau ganti perangkat HP baru untuk E-Presensi caranya bagaimana ya?","kalau mau ganti perangkat baru untuk epresensi caranya bagaimana ya?"],
+        "responses": ["Untuk prosedur penggantian perangkat, bapak ibu dapat meminta tiket penggantian ke admin epresensi di unit kerja bapak ibu. setelah itu tiket tersebut dibawa ke kantor BKPPD untuk aktivasi perangkat yang baru. selengkapnya bisa baca tutorial poin 8 di https://bkppd.tegalkota.go.id/wp-content/uploads/general/Module.pdf"]
+    },
+
+    {"tag": "problemabsen",
+        "patterns": ["saya tidak bisa absen, bagaimana yah?","saya gak bisa absen","saya tidak bisa absen","kok tidak bisa absen yah?","saya kok gak bisa absen yah"],
+        "responses": ["Indikasi atau pesan yang muncul apa yah? apakah tampilan layar muter-muter terus atau muncul pesan data tidak dapat dikirim?"]
+    },
+
+    {"tag": "problemabsenMuter",
+        "patterns": ["absen saya muter muter terus pak, bagaimana yah?","sinok muter muter","absen muter muter","epresensi saya muter muter","esensi saya muter muter","hape saya muter muter terus"],
+        "responses": ["coba cek aplikasi google maps hape dahulu, jika titik biru tidak sesuai coba bapak/ibu restart hape bapak/ibu. kemudian pastikan titik koordinat nya sesuai. "]
+    },
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    {"tag": "bye",
+     "patterns": ["Dadah", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
+     "responses": ["Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya", "Semoga harimu menyenangkan!"]
+    },
+  
+    {"tag": "pekerjaan",
+     "patterns": ["lu ngapain?", "pekerjaan kamu apa?", "lu kerja apa?", "tugas kamu apa?", "tugas lo ngapain?"],
+     "responses": ["Aku bantu kak Afif dalam mengelola channel NgodingPython", "Tugasku jadi asisten di komunitas NgodingPython"]
+    },
+    {"tag": "ngodingpython",
+    "patterns": ["emang ngodingpython apa si?", "apa tuh ngodingpython?", "emang ngoding python apa sih?", "wah apa tuh ngoding python?", "ngodingpython emang apa?"],
+    "responses": ["NgodingPython adalah sebuah channel youtube yang diciptakan oleh kak Afif untuk sharing mengenai Python, Pemrograman dan yang berkaitan dengan itu kak "]
+    },
+    {"tag": "ngodingpython_typo",
+    "patterns": ["emang ngodingphython apa ?", "apaan si ngodingpiton?", "emang ngoding phyton apa sih?", "wah apa tuh ngoding piton?", "ngodingpithon emang apa?"],
+    "responses": ["NgodingPython kaak, jangan bikin emosi deh", "Typo kak, NgodingPython kali maksudnya"]
+    },
+    {"tag": "youtube",
+     "patterns": ["channel nya bisa diliat dimana?", "mana linknya?", "minta link dong!", "youtube nya apa?", "dimana urlnya?"],
+     "responses": ["Bisa dilihat di https://youtube.com/NgodingPython, jangan lupa subscribe ya kak!", "Ini kak link nya https://youtube.com/NgodingPython. Disubscribe ya kak!"]
+    },
+    {"tag": "komunitas",
+     "patterns": ["kalau mau tanya-tanya kemana ya?", "ada komunitasnya ga?", "ada grupnya ga?", "grup nya apa?", "kalau mau nanya kodingan kemana ya?", "bisa bantu kodingan ga?", "bisa bantuin ngoding?"],
+     "responses": ["Langsung aja join ke telegram komunitas NgodingPython kak disini https://t.me/NgodingPython", "Boleh join kesini kak https://t.me/NgodingPython"]
+    }
+   
+   
+]
+}
